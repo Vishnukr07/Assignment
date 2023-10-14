@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Student Registration Form...</h1>
+    <form >
+    <table align="center" cellpadding="10">
+        <tr>
+            <td><label for="Firstname"> First Name:-</label></td>
+            <td><input type="text" Name="Firstname" id="Firstname" maxlength="40"> </td>
+            <td>
+                <p>(max 40 character a-z or A-Z)</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="Lastname">Last Name:-</label></td>
+            <td><input type="text" Name="Lastname" id="Lastname" maxlength="40"></td>
+            <td>
+                <p>(max 40 character a-z or A-Z)</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="dob">Date of Birth:-</label></td>
+            <td><input type="date" id="dob" name="dob"></td>
+        </tr>
+
+        <tr>
+            <td><label for="emailid">E-mail id:-</label></td>
+            <td><input type="email" name="emailid" id="emailid" placeholder="e-mail"></td>
+        </tr>
+
+        <tr>
+            <td><label for="Mobile">Mobile Number</label></td>
+            <td><input type="number" name="Mobile" id="Mobile" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+                Male<input type="radio" value="male" name="gender">
+                Female <input type="radio" name="gender" value="female">
+                Others<input type="radio" name="gender" value="others">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Address<label for="Address"></label></td>
+            <td><textarea name="Address" id="Address" cols="30" rows="10" placeholder="Address"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="pincode">Pincode</label></td>
+            <td><input type="number" id="pincode" maxlength="6" name="pincode"></td>
+            <td>
+                <p>(max length 6)</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="country">country</label></td>
+            <td><input type="text" name="country" id="country" value="india"></td>
+        </tr>
+
+        <tr>
+            <td>hobbies:</td>
+            <td><label for="singing">Singing</label><input type="checkbox" value="singing" id="singing">
+                <label for="Dancing">Dancing</label><input type="checkbox" name="dancing" id="Dancing">
+                <label for="sketching">Sketching</label><input type="checkbox" name="sketching" id="sketching">
+                <label for="reading">Reading</label><input type="checkbox" name="reading" id="reading">
+                <label for="others">Others<input type="checkbox" name="others" id="others"></label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Qualification:
+            </td>
+           <td>
+            <table cellpadding="5">
+                <thead>
+                    <tr>
+                        <th colspan="5">Please add your Data.....</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="center">S.NO.</td>
+                        <td align="center">Examination</td>
+                        <td align="center">Board/University</td>
+                        <td align="center">percentage</td>
+                        <td align="center">year of passing</td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">1.</td>
+                        <td align="center">Xth</td>
+                        <td align="center"><input type="text"  placeholder="Board/University" ></td>
+                        <td align="center"><input type="number" placeholder="percentage"></td>
+                        <td align="center"><input type="number" placeholder="passing year" ></td>
+                       
+                    </tr>
+                    <tr>
+                        <td align="center">2.</td>
+                        <td align="center">XIIth</td>
+                        <td align="center"><input type="text"  placeholder="Board/University"></td>
+                        <td align="center"><input type="number"  placeholder="percentage"></td>
+                        <td align="center"><input type="number"  placeholder="passing year"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td align="center">3.</td>
+                        <td align="center">Graduation</td>
+                        <td align="center"><input type="text" placeholder="Board/University" ></td>
+                        <td align="center"><input type="number"  placeholder="percentage"></td>
+                        <td align="center"><input type="number"  placeholder="passing year"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td align="center">4.</td>
+                        <td align="center">Master</td>
+                        <td align="center"><input type="text" placeholder="Board/University" ></td>
+                        <td align="center"><input type="number" placeholder="percentage" ></td>
+                        <td align="center"><input type="number"  placeholder="passing year"></td>
+                        
+                    </tr>
+                   
+                </tbody>
+            </table>
+           </td>
+        </tr>
+
+        <tr>
+            <td >
+                <input type="submit" value="Submit">
+            </td>
+            <td> <input type="reset" value="Reset"></td>
+        </tr>
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+</form>
+</body>
+
+</html>
